@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data></data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/character_image"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_launcher_foreground"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="2dp" />
+            <TextView
+                android:id="@+id/character_name"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="John doe"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/black_2B3" />
+
+            <TextView
+                android:id="@+id/character_alias"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Alias"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/black_2B3"  />
+        <TextView
+            android:id="@+id/character_status"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"
+            tools:text="Status"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_2B3"  />
+        <TextView
+            android:id="@+id/character_birthday"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            tools:text="Birthday"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_2B3"  />
+        <TextView
+            android:id="@+id/character_ocuppation"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            tools:text="Occupation"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_2B3"  />
+        <TextView
+            android:id="@+id/character_portrayed"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            tools:text="Actor"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_2B3"  />
+
+
+    </LinearLayout>
+</layout>
