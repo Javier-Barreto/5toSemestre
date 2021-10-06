@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    android:orientation="vertical"
+    android:background="#151515"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MainMessage"
+        android:textStyle="bold"
+        android:textColor="#B4A5A5"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NameQ"
+        android:textColor="#B4A5A5"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/Hint"
+        android:textColor="#B4A5A5"
+        android:textColorHint="#787A91"/>
+
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/LoginButton"
+        android:backgroundTint="#301B3F"
+        android:textColor="#B4A5A5"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text="@string/Creators"
+        android:textColor="#B4A5A5"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oskar Pablo Rolon Gonzalez"
+        android:textColor="#B4A5A5"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20165702"
+        android:textColor="#B4A5A5"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Javier Anastasio Barreto Martinez"
+        android:textColor="#B4A5A5"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20164773"
+        android:textColor="#B4A5A5"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>

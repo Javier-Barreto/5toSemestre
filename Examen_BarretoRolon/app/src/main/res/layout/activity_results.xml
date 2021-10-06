@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.ResultsActivity"
+        android:orientation="vertical"
+        android:background="#151515">
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="@string/TopText"
+            android:textColor="#B4A5A5"
+            />
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="John Doe"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textColor="#B4A5A5"
+            android:textStyle="bold"
+            android:layout_marginBottom="200dp"
+            />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Results"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textColor="#B4A5A5"
+            />
+
+        <Button
+            android:id="@+id/PlayAgain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:textColor="#B4A5A5"
+            android:backgroundTint="#301B3F"
+            android:text="@string/PlayAgain"/>
+
+    </LinearLayout>
+</layout>

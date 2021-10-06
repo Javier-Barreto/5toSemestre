@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">Examen_BarretoRolon</string>
+
+    <!-- Strings for Main Activity-->
+    <string name="LoginButton">Login</string>
+    <string name="MainMessage">Welcome to the trivia!</string>
+    <string name="NameQ">Tell us your name</string>
+    <string name="Hint">My name is...</string>
+    <string name="Creators">This trivia was created by...</string>
+
+    <!-- Strings for FirstQuestion Activity-->
+    <string name="Question1">What is the use of the object Dispatchers.IO of the library Coroutines?</string>
+    <string name="Answer1_Q1">Optimize I/O functions that are not in the main subprocess</string>
+    <string name="Answer2_Q1">Execute coroutines in the main subprocess</string>
+    <string name="Answer3_Q1">Execute processes that require a high CPU usage</string>
+
+    <!-- Strings for SecondQuestion Activity-->
+    <string name="Question2">What is the difference between mutableList and arrayList?</string>
+    <string name="Answer1_Q2">They are the same</string>
+    <string name="Answer2_Q2">ArrayList only accepts arrays as values</string>
+    <string name="Answer3_Q2">ArrayList allows us to modify the memory of the object</string>
+
+    <!-- Strings for ThirdQuestion Activity-->
+    <string name="Question3">If you need a function that can only be used in the module where it was declared, which modifier would you use?</string>
+    <string name="Answer1_Q3">Private</string>
+    <string name="Answer2_Q3">Internal</string>
+    <string name="Answer3_Q3">Protected</string>
+
+    <!-- Strings for Results Activity-->
+    <string name="TopText">Congratulations</string>
+    <string name="Results">Your guessed </string>
+    <string name="PlayAgain">PLAY AGAIN!</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings for Main Activity-->
+    <string name="LoginButton">Comenzar</string>
+    <string name="MainMessage">Bienvenido a la trivia!</string>
+    <string name="NameQ">Cual es tu nombre?</string>
+    <string name="Hint">Mi nombre es...</string>
+    <string name="Creators">Esta trivia fue creada por...</string>
+
+    <!-- Strings for FirstQuestion Activity-->
+    <string name="Question1">¿Cuál es la función del objeto Dispatchers.IO de la librería Coroutines?</string>
+    <string name="Answer1_Q1">Optimizar funciones de E/S fuera del subproceso principal</string>
+    <string name="Answer2_Q1">Ejecutar una corrutina en el subproceso principal</string>
+    <string name="Answer3_Q1">Realizar procesos que requiran alto consumo de CPU</string>
+
+    <!-- Strings for SecondQuestion Activity-->
+    <string name="Question2">¿Cuál es la diferencia entre mutableList y arrayList?</string>
+    <string name="Answer1_Q2">Son lo mismo</string>
+    <string name="Answer2_Q2">ArrayList solo permite ingresar vectores</string>
+    <string name="Answer3_Q2">ArrayList nos deja modificar la memoria del objeto</string>
+
+    <!-- Strings for ThirdQuestion Activity-->
+    <string name="Question3">Si necesitas que una función se use solo en el módulo en el que se declara, ¿Qué modificador usas?</string>
+    <string name="Answer1_Q3">Private</string>
+    <string name="Answer2_Q3">Internal</string>
+    <string name="Answer3_Q3">Protected</string>
+
+    <!-- Strings for Results Activity-->
+    <string name="TopText">Felicidades</string>
+    <string name="Results">Acertaste </string>
+    <string name="PlayAgain">¡Jugar otra vez!</string>
+
+</resources>
